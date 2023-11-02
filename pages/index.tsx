@@ -1,77 +1,17 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import { CustomHeader } from '@/components/layouts/header'
+import { CustomFooter } from '@/components/layouts/footer'
+import Aboutus from './about-us'
+import Services from './services'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-      {/* Spinner start */}
-      <div id="spinner" className="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div className="spinner-grow text-primary" role="status" />
-      </div>
-      {/* Spinner End */}
-
-      {/* TopBar */}
-      <div className="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block">
-        <div className="row gx-0 align-items-center">
-          <div className="col-lg-7 px-5 text-start">
-            <div className="h-100 d-inline-flex align-items-center me-4">
-              <small className="fa fa-phone-alt me-2"></small>
-              <small>+012 345 6789</small>
-            </div>
-            <div className="h-100 d-inline-flex align-items-center me-4">
-              <small className="far fa-envelope-open me-2"></small>
-              <small>info@example.com</small>
-            </div>
-          </div>
-          <div className="col-lg-5 px-5 text-end">
-            <ol className="breadcrumb justify-content-end mb-0">
-              <li className="breadcrumb-item"><a className="text-white-50 small" href="#">Home</a></li>
-              <li className="breadcrumb-item"><a className="text-white-50 small" href="#">Terms</a></li>
-              <li className="breadcrumb-item"><a className="text-white-50 small" href="#">Privacy</a></li>
-              <li className="breadcrumb-item"><a className="text-white-50 small" href="#">Support</a></li>
-            </ol>
-          </div>
-        </div>
-      </div>
-      {/* Top Bar */}
-
-      {/* Navbar Start */}
-      <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
-        <a href="index.html" className="navbar-brand d-flex align-items-center">
-          <h1 className="m-0"><img className="img-fluid me-3" src="img/icon/icon-02-primary.png" alt="" />AirCon</h1>
-        </a>
-        <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarCollapse">
-          <div className="navbar-nav mx-auto bg-light pe-4 py-3 py-lg-0">
-            <a href="index.html" className="nav-item nav-link active">Home</a>
-            <a href="about.html" className="nav-item nav-link">About Us</a>
-            <a href="service.html" className="nav-item nav-link">Our Services</a>
-            <div className="nav-item dropdown">
-              <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-              <div className="dropdown-menu bg-light border-0 m-0">
-                <a href="feature.html" className="dropdown-item">Features</a>
-                <a href="quote.html" className="dropdown-item">Free Quote</a>
-                <a href="team.html" className="dropdown-item">Our Team</a>
-                <a href="testimonial.html" className="dropdown-item">Testimonial</a>
-                <a href="404.html" className="dropdown-item">404 Page</a>
-              </div>
-            </div>
-            <a href="contact.html" className="nav-item nav-link">Contact Us</a>
-          </div>
-          <div className="h-100 d-lg-inline-flex align-items-center d-none">
-            <a className="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i className="fab fa-facebook-f"></i></a>
-            <a className="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i className="fab fa-twitter"></i></a>
-            <a className="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i className="fab fa-linkedin-in"></i></a>
-            <a className="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i className="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </nav>
-      {/* Navbar End */}
-
+      <Link href="#" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i className="bi bi-arrow-up"></i></Link>
 
       {/* Carousel Start */}
       <div className="container-fluid p-0 mb-5">
@@ -135,94 +75,7 @@ export default function Home() {
       {/* Carousel End */}
 
       {/* About Start */}
-      <div className="container-xxl py-5">
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div className="h-100">
-                <h1 className="display-6 mb-5">Welcome To Best Cooling &amp; Heating Service Center</h1>
-                <div className="row g-4 mb-4">
-                  <div className="col-sm-6">
-                    <div className="d-flex align-items-center">
-                      <img className="flex-shrink-0 me-3" src="img/icon/icon-07-primary.png" alt="" />
-                      <h5 className="mb-0">Expert Technician</h5>
-                    </div>
-                  </div>
-                  <div className="col-sm-6">
-                    <div className="d-flex align-items-center">
-                      <img className="flex-shrink-0 me-3" src="img/icon/icon-09-primary.png" alt="" />
-                      <h5 className="mb-0">Best Quality Services</h5>
-                    </div>
-                  </div>
-                </div>
-                <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                <div className="border-top mt-4 pt-4">
-                  <div className="row">
-                    <div className="col-sm-6">
-                      <div className="d-flex align-items-center">
-                        <div className="btn-lg-square bg-primary rounded-circle me-3">
-                          <i className="fa fa-phone-alt text-white" />
-                        </div>
-                        <h5 className="mb-0">+012 345 6789</h5>
-                      </div>
-                    </div>
-                    <div className="col-sm-6">
-                      <div className="d-flex align-items-center">
-                        <div className="btn-lg-square bg-primary rounded-circle me-3">
-                          <i className="fa fa-envelope text-white" />
-                        </div>
-                        <h5 className="mb-0">info@example.com</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="row g-3">
-                <div className="col-6 text-end">
-                  <img className="img-fluid w-75 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg" style={{ marginTop: '25%' }} />
-                </div>
-                <div className="col-6 text-start">
-                  <img className="img-fluid w-100 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" />
-                </div>
-                <div className="col-6 text-end">
-                  <img className="img-fluid w-50 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg" />
-                </div>
-                <div className="col-6 text-start">
-                  <img className="img-fluid w-75 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* About End */}
-
-
-      {/* Facts Start */}
-      <div className="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-1.jpg">
-        <div className="container py-5">
-          <div className="row g-5">
-            <div className="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-              <h1 className="display-4 text-white" data-toggle="counter-up">1234</h1>
-              <span className="text-primary">Happy Clients</span>
-            </div>
-            <div className="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-              <h1 className="display-4 text-white" data-toggle="counter-up">1234</h1>
-              <span className="text-primary">Projects Succeed</span>
-            </div>
-            <div className="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-              <h1 className="display-4 text-white" data-toggle="counter-up">1234</h1>
-              <span className="text-primary">Awards Achieved</span>
-            </div>
-            <div className="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-              <h1 className="display-4 text-white" data-toggle="counter-up">1234</h1>
-              <span className="text-primary">Team Members</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Aboutus showPageHeader={false} />
       {/* Facts End */}
 
       {/* Feature Start */}
@@ -271,81 +124,7 @@ export default function Home() {
       {/* Feature End */}
 
       {/* Service Start */}
-      <div className="container-xxl py-5">
-        <div className="container">
-          <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '500px' }}>
-            <h1 className="display-6 mb-5">We Provide professional Heating &amp; Cooling Services</h1>
-          </div>
-          <div className="row g-4 justify-content-center">
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div className="service-item">
-                <img className="img-fluid" src="img/service-1.jpg" alt="" />
-                <div className="d-flex align-items-center bg-light">
-                  <div className="service-icon flex-shrink-0 bg-primary">
-                    <img className="img-fluid" src="img/icon/icon-01-light.png" alt="" />
-                  </div>
-                  <a className="h4 mx-4 mb-0" href="">AC Installation</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div className="service-item">
-                <img className="img-fluid" src="img/service-2.jpg" alt="" />
-                <div className="d-flex align-items-center bg-light">
-                  <div className="service-icon flex-shrink-0 bg-primary">
-                    <img className="img-fluid" src="img/icon/icon-02-light.png" alt="" />
-                  </div>
-                  <a className="h4 mx-4 mb-0" href="">Cooling Services</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div className="service-item">
-                <img className="img-fluid" src="img/service-3.jpg" alt="" />
-                <div className="d-flex align-items-center bg-light">
-                  <div className="service-icon flex-shrink-0 bg-primary">
-                    <img className="img-fluid" src="img/icon/icon-03-light.png" alt="" />
-                  </div>
-                  <a className="h4 mx-4 mb-0" href="">Heating Services</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div className="service-item">
-                <img className="img-fluid" src="img/service-4.jpg" alt="" />
-                <div className="d-flex align-items-center bg-light">
-                  <div className="service-icon flex-shrink-0 bg-primary">
-                    <img className="img-fluid" src="img/icon/icon-04-light.png" alt="" />
-                  </div>
-                  <a className="h4 mx-4 mb-0" href="">Maintenance &amp; Repair</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div className="service-item">
-                <img className="img-fluid" src="img/service-5.jpg" alt="" />
-                <div className="d-flex align-items-center bg-light">
-                  <div className="service-icon flex-shrink-0 bg-primary">
-                    <img className="img-fluid" src="img/icon/icon-05-light.png" alt="" />
-                  </div>
-                  <a className="h4 mx-4 mb-0" href="">Indoor Air Quality</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div className="service-item">
-                <img className="img-fluid" src="img/service-6.jpg" alt="" />
-                <div className="d-flex align-items-center bg-light">
-                  <div className="service-icon flex-shrink-0 bg-primary">
-                    <img className="img-fluid" src="img/icon/icon-06-light.png" alt="" />
-                  </div>
-                  <a className="h4 mx-4 mb-0" href="">Annual Inspections</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Services showPageHeader={false} />
       {/* Service End */}
 
 
@@ -531,68 +310,6 @@ export default function Home() {
       </div>
       {/* Testimonial End */}
 
-      {/* Footer Start */}
-      <div className="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div className="container py-5">
-          <div className="row g-5">
-            <div className="col-md-6">
-              <h1 className="text-white mb-4"><img className="img-fluid me-3" src="img/icon/icon-02-light.png" alt="" />AirCon</h1>
-              <span>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</span>
-            </div>
-            <div className="col-md-6">
-              <h5 className="text-light mb-4">Newsletter</h5>
-              <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita.</p>
-              <div className="position-relative">
-                <input className="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" />
-                <button type="button" className="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <h5 className="text-light mb-4">Get In Touch</h5>
-              <p><i className="fa fa-map-marker-alt me-3" />123 Street, New York, USA</p>
-              <p><i className="fa fa-phone-alt me-3" />+012 345 67890</p>
-              <p><i className="fa fa-envelope me-3" />info@example.com</p>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <h5 className="text-light mb-4">Our Services</h5>
-              <a className="btn btn-link" href="">AC Installation</a>
-              <a className="btn btn-link" href="">Cooling Services</a>
-              <a className="btn btn-link" href="">Heating Services</a>
-              <a className="btn btn-link" href="">Annual Inspections</a>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <h5 className="text-light mb-4">Quick Links</h5>
-              <a className="btn btn-link" href="">About Us</a>
-              <a className="btn btn-link" href="">Contact Us</a>
-              <a className="btn btn-link" href="">Our Services</a>
-              <a className="btn btn-link" href="">Terms &amp; Condition</a>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <h5 className="text-light mb-4">Follow Us</h5>
-              <div className="d-flex">
-                <a className="btn btn-square rounded-circle me-1" href=""><i className="fab fa-twitter" /></a>
-                <a className="btn btn-square rounded-circle me-1" href=""><i className="fab fa-facebook-f" /></a>
-                <a className="btn btn-square rounded-circle me-1" href=""><i className="fab fa-youtube" /></a>
-                <a className="btn btn-square rounded-circle me-1" href=""><i className="fab fa-linkedin-in" /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container-fluid copyright">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                © <a href="#">Your Site Name</a>, All Right Reserved.
-              </div>
-              <div className="col-md-6 text-center text-md-end">
-                {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
-                Designed By <a href="https://htmlcodex.com">HTML Codex</a>  Distributed by <a href="https://themewagon.com">ThemeWagon</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Footer End */}
     </>
   )
 }
