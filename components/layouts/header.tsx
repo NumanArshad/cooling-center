@@ -48,7 +48,7 @@ export const CustomHeader = () => {
                         <Link href="/" className="nav-item nav-link active">Home</Link>
                         <Link href="about-us" className="nav-item nav-link">About Us</Link>
                         <Link href="/services" className="nav-item nav-link">Our Services</Link>
-                        <div className="nav-item dropdown">
+                        {/* <div className="nav-item dropdown">
                             <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div className="dropdown-menu bg-light border-0 m-0">
                                 <a href="feature.html" className="dropdown-item">Features</a>
@@ -57,7 +57,7 @@ export const CustomHeader = () => {
                                 <a href="testimonial.html" className="dropdown-item">Testimonial</a>
                                 <a href="404.html" className="dropdown-item">404 Page</a>
                             </div>
-                        </div>
+                        </div> */}
                         <Link href="/contact-us" className="nav-item nav-link">Contact Us</Link>
                     </div>
                     <div className="h-100 d-lg-inline-flex align-items-center d-none">
