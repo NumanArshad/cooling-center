@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export const CustomFooter = () => {
@@ -5,7 +6,7 @@ export const CustomFooter = () => {
         <div className="container py-5">
             <div className="row g-5">
                 <div className="col-md-6">
-                    <h1 className="text-white mb-4"><img className="img-fluid me-3" src="img/icon/icon-02-light.png" alt="" />AirCon</h1>
+                    <h1 className="text-white mb-4"><img className="img-fluid me-3" style={{ "height": "3rem" }} src="img/business-logo.jpeg" alt="" /></h1>
                     <span>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</span>
                 </div>
                 <div className="col-md-6">
@@ -16,27 +17,27 @@ export const CustomFooter = () => {
                         <button type="button" className="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-4 col-md-6">
                     <h5 className="text-light mb-4">Get In Touch</h5>
-                    <p><i className="fa fa-map-marker-alt me-3" />123 Street, New York, USA</p>
-                    <p><i className="fa fa-phone-alt me-3" />+012 345 67890</p>
-                    <p><i className="fa fa-envelope me-3" />info@example.com</p>
+                    <p><i className="fa fa-map-marker-alt me-3" />Khokher Chowk, Near Emporium Mall,Johar Town 54782, Punjāb, Lahore, Pakistan</p>
+                    <p><i className="fa fa-phone-alt me-3" />+92 305 43494460</p>
+                    <p className='d-flex align-items-center'><i className="fa fa-envelope me-3 " />bismillahcoolingcenter45@gmail.com</p>
                 </div>
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-4 col-md-6">
                     <h5 className="text-light mb-4">Our Services</h5>
                     <a className="btn btn-link" href="">AC Installation</a>
                     <a className="btn btn-link" href="">Cooling Services</a>
                     <a className="btn btn-link" href="">Heating Services</a>
                     <a className="btn btn-link" href="">Annual Inspections</a>
                 </div>
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-4 col-md-6">
                     <h5 className="text-light mb-4">Quick Links</h5>
-                    <a className="btn btn-link" href="">About Us</a>
-                    <a className="btn btn-link" href="">Contact Us</a>
-                    <a className="btn btn-link" href="">Our Services</a>
+                    <Link className="btn btn-link" href="/about-us">About Us</Link>
+                    <Link className="btn btn-link" href="/contact-us">Contact Us</Link>
+                    <Link className="btn btn-link" href="/services">Our Services</Link>
                     <a className="btn btn-link" href="">Terms &amp; Condition</a>
                 </div>
-                <div className="col-lg-3 col-md-6">
+                {/* <div className="col-lg-3 col-md-6">
                     <h5 className="text-light mb-4">Follow Us</h5>
                     <div className="d-flex">
                         <a className="btn btn-square rounded-circle me-1" href=""><i className="fab fa-twitter" /></a>
@@ -44,19 +45,19 @@ export const CustomFooter = () => {
                         <a className="btn btn-square rounded-circle me-1" href=""><i className="fab fa-youtube" /></a>
                         <a className="btn btn-square rounded-circle me-1" href=""><i className="fab fa-linkedin-in" /></a>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         <div className="container-fluid copyright">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        © <a href="#">Your Site Name</a>, All Right Reserved.
+                    <div className="text-center  mb-3 mb-md-0">
+                        © <a href="#">Bismillah Cooling Center</a>, All Right Reserved.
                     </div>
-                    <div className="col-md-6 text-center text-md-end">
-                        {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
-                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>  Distributed by <a href="https://themewagon.com">ThemeWagon</a>
-                    </div>
+                    {/* <div className="col-md-6 text-center text-md-end"> */}
+                    {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
+                    {/* Designed By <a href="https://htmlcodex.com">HTML Codex</a>  Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+                    </div> */}
                 </div>
             </div>
         </div>

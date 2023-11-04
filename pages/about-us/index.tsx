@@ -36,15 +36,15 @@ const Aboutus = ({ showPageHeader = true }: Props) => {
                                                 <div className="btn-lg-square bg-primary rounded-circle me-3">
                                                     <i className="fa fa-phone-alt text-white" />
                                                 </div>
-                                                <h5 className="mb-0">+012 345 6789</h5>
+                                                <h5 className="mb-0">+92 305 4349446</h5>
                                             </div>
                                         </div>
                                         <div className="col-sm-6">
                                             <div className="d-flex align-items-center">
-                                                <div className="btn-lg-square bg-primary rounded-circle me-3">
+                                                <div className="btn-lg-square bg-primary rounded-circle me-3 aspect-ratio-default">
                                                     <i className="fa fa-envelope text-white" />
                                                 </div>
-                                                <h5 className="mb-0">info@example.com</h5>
+                                                <h5 className="mb-0">bismillahcoolingcenter45@gmail.com</h5>
                                             </div>
                                         </div>
                                     </div>

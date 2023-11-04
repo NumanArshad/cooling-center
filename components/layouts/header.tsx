@@ -1,7 +1,9 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import React from 'react'
 
 export const CustomHeader = () => {
+    const route = useRouter()
     return (
         <>
             {/* Spinner start */}
@@ -20,7 +22,7 @@ export const CustomHeader = () => {
                         </div>
                         <div className="h-100 d-inline-flex align-items-center me-4">
                             <small className="far fa-envelope-open me-2"></small>
-                            <small>info@example.com</small>
+                            <small>bismillahcoolingcenter45@gmail.com</small>
                         </div>
                     </div>
                     <div className="col-lg-5 px-5 text-end">
@@ -45,9 +47,9 @@ export const CustomHeader = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav mx-auto bg-light pe-4 py-3 py-lg-0">
-                        <Link href="/" className="nav-item nav-link active">Home</Link>
-                        <Link href="about-us" className="nav-item nav-link">About Us</Link>
-                        <Link href="/services" className="nav-item nav-link">Our Services</Link>
+                        <Link href="/" className={`nav-item nav-link ${route.pathname === "/" ? `active` : ``}`}>Home</Link>
+                        <Link href="/about-us" className={`nav-item nav-link ${route.pathname === "/about-us" ? `active` : ``}`}>About Us</Link>
+                        <Link href="/services" className={`nav-item nav-link ${route.pathname === "/services" ? `active` : ``}`}>Our Services</Link>
                         {/* <div className="nav-item dropdown">
                             <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div className="dropdown-menu bg-light border-0 m-0">
@@ -58,7 +60,7 @@ export const CustomHeader = () => {
                                 <a href="404.html" className="dropdown-item">404 Page</a>
                             </div>
                         </div> */}
-                        <Link href="/contact-us" className="nav-item nav-link">Contact Us</Link>
+                        <Link href="/contact-us" className={`nav-item nav-link ${route.pathname === "/contact-us" ? `active` : ``}`}>Contact Us</Link>
                     </div>
                     <div className="h-100 d-lg-inline-flex align-items-center d-none">
                         <a className="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i className="fab fa-facebook-f"></i></a>
