@@ -24,7 +24,7 @@ export default function Home() {
                   <div className="row justify-content-center">
                     <div className="col-lg-7 pt-5">
                       <h1 className="display-4 text-white mb-4 animated slideInDown">We Provide Best AC Repair Services</h1>
-                      <p className="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit clita duo justo erat amet</p>
+                      <p className="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">Experience reliable cooling refrigeration installation and repair service for your needs</p>
                       <a href="" className="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
                     </div>
                   </div>
@@ -38,7 +38,7 @@ export default function Home() {
                   <div className="row justify-content-center">
                     <div className="col-lg-7 pt-5">
                       <h1 className="display-4 text-white mb-4 animated slideInDown">Quality Heating & Air Condition Services</h1>
-                      <p className="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit clita duo justo erat amet</p>
+                      <p className="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">Enhance your cooling system with our expert installation and repair service</p>
                       <a href="" className="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
                     </div>
                   </div>
@@ -46,13 +46,13 @@ export default function Home() {
               </div>
             </div>
             <div className="carousel-item">
-              <img className="w-100" src="img/carousel-3.jpg" alt="Image" />
+              <img className="w-100" src="img/carousel-1.jpg" alt="Image" />
               <div className="carousel-caption">
                 <div className="container">
                   <div className="row justify-content-center">
                     <div className="col-lg-7 pt-5">
                       <h1 className="display-4 text-white mb-4 animated slideInDown">We Provide Best AC Repair Services</h1>
-                      <p className="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet lorem sit clita duo justo erat amet</p>
+                      <p className="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">Experience reliable cooling refrigeration installation and repair service for your needs</p>
                       <a href="" className="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
                     </div>
                   </div>
@@ -84,14 +84,14 @@ export default function Home() {
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <h1 className="display-6 mb-5">Few Reasons Why People Choosing Us!</h1>
-              <p className="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+              <p className="mb-5">Choose us for all your cooling and heating needs and experience the difference that our service center can make.</p>
               <div className="d-flex mb-5">
                 <div className="flex-shrink-0 btn-square bg-primary rounded-circle" style={{ width: '90px', height: '90px' }}>
                   <img className="img-fluid" src="img/icon/icon-08-light.png" alt="" />
                 </div>
                 <div className="ms-4">
                   <h5 className="mb-3">Trusted Service Center</h5>
-                  <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</span>
+                  <span>Our service center is the top choice for all your cooling and heating needs. We are a trusted provider of high-quality service and repairs.</span>
                 </div>
               </div>
               <div className="d-flex mb-5">
@@ -100,7 +100,7 @@ export default function Home() {
                 </div>
                 <div className="ms-4">
                   <h5 className="mb-3">Reasonable Price</h5>
-                  <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</span>
+                  <span>Our service center offers top-notch cooling and heating solutions at an affordable price.</span>
                 </div>
               </div>
               <div className="d-flex mb-0">
@@ -109,7 +109,7 @@ export default function Home() {
                 </div>
                 <div className="ms-4">
                   <h5 className="mb-3">24/7 Supports</h5>
-                  <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</span>
+                  <span>Our Cooling & Heating Service Center is renowned for providing exceptional service and round-the-clock support.</span>
                 </div>
               </div>
             </div>
@@ -135,7 +135,7 @@ export default function Home() {
             <div className="col-lg-6 quote-text" data-parallax="scroll" data-image-src="img/carousel-1.jpg">
               <div className="h-100 px-4 px-sm-5 ps-lg-0 wow fadeIn" data-wow-delay="0.1s">
                 <h1 className="text-white mb-4">For Individuals And Organisations</h1>
-                <p className="text-light mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <p className="text-light mb-5">We pride ourselves on providing the best service possible to ensure our customers are satisfied with their experience. Whether you need repairs, maintenance, or installation, our team of experts is here to help. Trust us to keep your space comfortable all year round</p>
                 <a href="" className="align-self-start btn btn-primary py-3 px-5">More Details</a>
               </div>
             </div>
@@ -263,7 +263,7 @@ export default function Home() {
 
 
       {/* Testimonial Start */}
-      <div className="container-xxl py-5">
+      {/* <div className="container-xxl py-5">
         <div className="container">
           <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '500px' }}>
             <h1 className="display-6 mb-5">What They Say About Our Services</h1>
@@ -307,7 +307,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Testimonial End */}
 
     </>

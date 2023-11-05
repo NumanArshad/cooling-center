@@ -10,10 +10,11 @@ const ContactUs = () => {
                             If You Have Any Query, Please Contact Us
                         </h1>
                         <p className="mb-4">
-                            The contact form is currently inactive. Get a functional and working
+                            {/* The contact form is currently inactive. Get a functional and working
                             contact form with Ajax &amp; PHP in a few minutes. Just copy and paste
                             the files, add a little code and you're done.{" "}
-                            <a href="https://htmlcodex.com/contact-form">Download Now</a>.
+                            <a href="https://htmlcodex.com/contact-form">Download Now</a>. */}
+                            Our team of experts is available to answer any questions you may have and provide you with the necessary support to ensure your cooling system is functioning properly. Whether you need a repair or a new installation, we are here to help. Contact us today for prompt and reliable service.
                         </p>
                         <form>
                             <div className="row g-3">

@@ -7,11 +7,12 @@ export const CustomFooter = () => {
             <div className="row g-5">
                 <div className="col-md-6">
                     <h1 className="text-white mb-4"><img className="img-fluid me-3" style={{ "height": "3rem" }} src="img/business-logo.jpeg" alt="" /></h1>
-                    <span>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</span>
+                    <span>Our service center is renowned for providing exceptional cooling and heating solutions. With years of experience and expertise in the industry, we have established ourselves as the best in the business. Our team of highly skilled technicians is dedicated to delivering top-notch service to our valued customers.</span>
                 </div>
                 <div className="col-md-6">
                     <h5 className="text-light mb-4">Newsletter</h5>
-                    <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita.</p>
+                    {/* <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita.</p> */}
+                    <p></p>
                     <div className="position-relative">
                         <input className="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" />
                         <button type="button" className="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>

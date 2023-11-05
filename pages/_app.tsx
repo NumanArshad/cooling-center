@@ -10,8 +10,8 @@ export default function App({ Component, pageProps }: AppProps) {
     <Head >
       <meta charSet="utf-8" />
       <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-      <meta content="" name="keywords" />
-      <meta content="" name="description" />
+      <meta content="Bismillah Cooling, Referigenation Installatio and Repair, Air Cooling Service" name="keywords" />
+      <meta content="Reliable Cooling Repair & Installation Service | Trusted Referigenation Solutions" name="description" />
       <title>Bismillah Cooling Center</title>
 
     </Head>

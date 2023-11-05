@@ -28,7 +28,7 @@ const Aboutus = ({ showPageHeader = true }: Props) => {
                                         </div>
                                     </div>
                                 </div>
-                                <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                <p className="mb-4">Greetings and welcome to the premier destination for all your cooling and heating needs - the Best Cooling & Heating Service Center. Our team of highly skilled professionals is dedicated to providing top-notch services to ensure your comfort and satisfaction</p>
                                 <div className="border-top mt-4 pt-4">
                                     <div className="row">
                                         <div className="col-sm-6">
@@ -44,7 +44,7 @@ const Aboutus = ({ showPageHeader = true }: Props) => {
                                                 <div className="btn-lg-square bg-primary rounded-circle me-3 aspect-ratio-default">
                                                     <i className="fa fa-envelope text-white" />
                                                 </div>
-                                                <h5 className="mb-0">bismillahcoolingcenter45@gmail.com</h5>
+                                                <h5 className="mb-0" style={{ "wordWrap": "break-word", width: "calc(100% - 1rem)" }}>bismillahcoolingcenter45@gmail.com</h5>
                                             </div>
                                         </div>
                                     </div>
