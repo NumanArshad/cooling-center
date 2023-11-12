@@ -6,7 +6,7 @@ export const CustomFooter = () => {
         <div className="container py-5">
             <div className="row g-5">
                 <div className="col-md-6">
-                    <h1 className="text-white mb-4"><img className="img-fluid me-3" style={{ "height": "3rem" }} src="img/business-logo.jpeg" alt="" /></h1>
+                    <h1 className="text-white mb-4"><img className="img-fluid me-3" style={{ "height": "3rem" }} src="img/business-logo-nobg.png" alt="" /></h1>
                     <span>Our service center is renowned for providing exceptional cooling and heating solutions. With years of experience and expertise in the industry, we have established ourselves as the best in the business. Our team of highly skilled technicians is dedicated to delivering top-notch service to our valued customers.</span>
                 </div>
                 <div className="col-md-6">
@@ -20,8 +20,8 @@ export const CustomFooter = () => {
                 </div>
                 <div className="col-lg-4 col-md-6">
                     <h5 className="text-light mb-4">Get In Touch</h5>
-                    <p><i className="fa fa-map-marker-alt me-3" />Khokher Chowk, Near Emporium Mall,Johar Town 54782, Punjāb, Lahore, Pakistan</p>
-                    <p><i className="fa fa-phone-alt me-3" />+92 305 43494460</p>
+                    <p><i className="fa fa-map-marker-alt me-3" />258 H Block near Emporium Mall Block H2 phase 2 Johar Town 54782, Punjāb, Lahore, Pakistan</p>
+                    <p><i className="fa fa-phone-alt me-3" />+92 326 0838264</p>
                     <p className='d-flex align-items-center'><i className="fa fa-envelope me-3 " />bismillahcoolingcenter45@gmail.com</p>
                 </div>
                 <div className="col-lg-4 col-md-6">

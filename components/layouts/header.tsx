@@ -18,7 +18,7 @@ export const CustomHeader = () => {
                     <div className="col-lg-7 px-5 text-start">
                         <div className="h-100 d-inline-flex align-items-center me-4">
                             <small className="fa fa-phone-alt me-2"></small>
-                            <small>+92 305 4349446</small>
+                            <small>+92 326 0838264</small>
                         </div>
                         <div className="h-100 d-inline-flex align-items-center me-4">
                             <small className="far fa-envelope-open me-2"></small>
@@ -40,7 +40,7 @@ export const CustomHeader = () => {
             {/* Navbar Start */}
             <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
                 <a href="index.html" className="navbar-brand d-flex align-items-center">
-                    <h1 className="m-0"><img className="img-fluid me-3" src="img/business-logo.jpeg" alt="" /></h1>
+                    <h1 className="m-0"><img className="img-fluid me-3" src="img/business-logo-nobg.png" alt="" /></h1>
                 </a>
                 <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span className="navbar-toggler-icon"></span>
