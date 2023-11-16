@@ -22,7 +22,7 @@ export const CustomHeader = () => {
                         </div>
                         <div className="h-100 d-inline-flex align-items-center me-4">
                             <small className="far fa-envelope-open me-2"></small>
-                            <small>bismillahcoolingcenter45@gmail.com</small>
+                            <small>farhan.ahmad@bismillahcoolingcenter.info</small>
                         </div>
                     </div>
                     <div className="col-lg-5 px-5 text-end">
