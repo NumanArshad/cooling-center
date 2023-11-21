@@ -20,8 +20,8 @@ export const CustomFooter = () => {
                 </div>
                 <div className="col-lg-4 col-md-6">
                     <h5 className="text-light mb-4">Get In Touch</h5>
-                    <p><i className="fa fa-map-marker-alt me-3" />258 H Block near Emporium Mall Block H2 phase 2 Johar Town 54782, Punjāb, Lahore, Pakistan</p>
-                    <p><i className="fa fa-phone-alt me-3" />+92 326 0838264</p>
+                    <p><i className="fa fa-map-marker-alt me-3" />Khokhar chowk near emporium mall, johar town, Lahore, 54782, Pakistan</p>
+                    <p><i className="fa fa-phone-alt me-3" />+92 327 4856525</p>
                     <p className='d-flex align-items-center'><i className="fa fa-envelope me-3 " />farhan.ahmad@bismillahcoolingcenter.info</p>
                 </div>
                 <div className="col-lg-4 col-md-6">

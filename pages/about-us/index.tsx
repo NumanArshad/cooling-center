@@ -36,7 +36,7 @@ const Aboutus = ({ showPageHeader = true }: Props) => {
                                                 <div className="btn-lg-square bg-primary rounded-circle me-3">
                                                     <i className="fa fa-phone-alt text-white" />
                                                 </div>
-                                                <h5 className="mb-0">+92 326 0838264</h5>
+                                                <h5 className="mb-0">+92 327 4856525</h5>
                                             </div>
                                         </div>
                                         <div className="col-sm-6">

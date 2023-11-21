@@ -79,7 +79,7 @@ const ContactUs = () => {
                         <div className="position-relative overflow-hidden h-100">
                             <iframe
                                 className="position-relative w-100 h-100"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.049776401754!2d74.264072575493!3d31.46781687423809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391903d4d940f12b%3A0xdb8c83f6699d5226!2sEmporium%20Mall!5e0!3m2!1sen!2s!4v1699129113110!5m2!1sen!2s"
+                                src="https://www.google.com/maps/place/Emporium+Mall/@31.4676238,74.2615998,20.57z/data=!4m6!3m5!1s0x391903d4d940f12b:0xdb8c83f6699d5226!8m2!3d31.4678169!4d74.2666475!16s%2Fg%2F11cmtv8bxn?entry=ttu"
                                 frameBorder={0}
                                 style={{ minHeight: 450, border: 0 }}
                                 allowFullScreen={true}
