@@ -79,7 +79,7 @@ const ContactUs = () => {
                         <div className="position-relative overflow-hidden h-100">
                             <iframe
                                 className="position-relative w-100 h-100"
-                                src="https://www.google.com/maps/place/Block+H-2+Block+H+2+Phase+2+Johar+Town,+Lahore,+Punjab,+Pakistan/@31.4697958,74.2640953,17z/data=!3m1!4b1!4m6!3m5!1s0x391903d49e184fdf:0x9b273e1700baf10a!8m2!3d31.4695393!4d74.2667167!16s%2Fg%2F1wyc2qfh?entry=ttu"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.9778382932423!2d74.2666702!3d31.4697958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391903d49e184fdf%3A0x9b273e1700baf10a!2sBlock%20H-2%20Block%20H%202%20Phase%202%20Johar%20Town%2C%20Lahore%2C%20Punjab!5e0!3m2!1sen!2s!4v1700853782909!5m2!1sen!2s"
                                 frameBorder={0}
                                 style={{ minHeight: 450, border: 0 }}
                                 allowFullScreen={true}
