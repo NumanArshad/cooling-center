@@ -79,7 +79,7 @@ const ContactUs = () => {
                         <div className="position-relative overflow-hidden h-100">
                             <iframe
                                 className="position-relative w-100 h-100"
-                                src="https://www.google.com/maps/place/Emporium+Mall/@31.4676238,74.2615998,20.57z/data=!4m6!3m5!1s0x391903d4d940f12b:0xdb8c83f6699d5226!8m2!3d31.4678169!4d74.2666475!16s%2Fg%2F11cmtv8bxn?entry=ttu"
+                                src="https://www.google.com/maps/place/Block+H-2+Block+H+2+Phase+2+Johar+Town,+Lahore,+Punjab,+Pakistan/@31.4697958,74.2640953,17z/data=!3m1!4b1!4m6!3m5!1s0x391903d49e184fdf:0x9b273e1700baf10a!8m2!3d31.4695393!4d74.2667167!16s%2Fg%2F1wyc2qfh?entry=ttu"
                                 frameBorder={0}
                                 style={{ minHeight: 450, border: 0 }}
                                 allowFullScreen={true}
