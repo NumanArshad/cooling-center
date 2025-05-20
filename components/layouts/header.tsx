@@ -18,7 +18,7 @@ export const CustomHeader = () => {
                     <div className="col-lg-7 px-5 text-start">
                         <div className="h-100 d-inline-flex align-items-center me-4">
                             <small className="fa fa-phone-alt me-2"></small>
-                            <small>+92 326 0838264</small>
+                            <small>+92 305 4349446</small>
                         </div>
                         <div className="h-100 d-inline-flex align-items-center me-4">
                             <small className="far fa-envelope-open me-2"></small>
